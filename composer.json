@@ -1,0 +1,17 @@
+{
+    "name": "tyz/composer_test",
+    "description": "a test for composer",
+    "authors": [
+        {
+            "name": "tianyunchong",
+            "email": "854024109@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+    	"psr" : {
+    		"Demo\\":"src/Demo",
+    		"Test\\":"src/Test"
+    	}
+    }
+}
